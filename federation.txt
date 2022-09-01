@@ -1,0 +1,422 @@
+https://federationtester.matrix.org/api/report?server_name=matrix.org
+
+{
+  "WellKnownResult": {
+    "m.server": "matrix-federation.matrix.org:443",
+    "CacheExpiresAt": 1662077022
+  },
+  "DNSResult": {
+    "SRVSkipped": true,
+    "SRVCName": "",
+    "SRVRecords": null,
+    "SRVError": null,
+    "Hosts": {
+      "matrix-federation.matrix.org": {
+        "CName": "matrix-federation.matrix.org.",
+        "Addrs": [
+          "2606:4700:10::6814:c925",
+          "2606:4700:10::6814:c825",
+          "2606:4700:10::ac43:135a",
+          "104.20.201.37",
+          "172.67.19.90",
+          "104.20.200.37"
+        ],
+        "Error": null
+      }
+    },
+    "Addrs": [
+      "[2606:4700:10::6814:c925]:443",
+      "[2606:4700:10::6814:c825]:443",
+      "[2606:4700:10::ac43:135a]:443",
+      "104.20.201.37:443",
+      "172.67.19.90:443",
+      "104.20.200.37:443"
+    ]
+  },
+  "ConnectionReports": {
+    "104.20.200.37:443": {
+      "Certificates": [
+        {
+          "SubjectCommonName": "sni.cloudflaressl.com",
+          "IssuerCommonName": "Cloudflare Inc ECC CA-3",
+          "SHA256Fingerprint": "kBX1oyhKwmIT6Tm+cwaR+UvttEmkpHypQcUTPHWrJqU",
+          "DNSNames": [
+            "matrix.org",
+            "*.matrix.org",
+            "sni.cloudflaressl.com"
+          ]
+        },
+        {
+          "SubjectCommonName": "Cloudflare Inc ECC CA-3",
+          "IssuerCommonName": "Baltimore CyberTrust Root",
+          "SHA256Fingerprint": "OrvmPa91bFAWtrhfUgFf2Oisvid8UIexJ6YFY6hB7Yo",
+          "DNSNames": null
+        }
+      ],
+      "Cipher": {
+        "Version": "TLS 1.3",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256"
+      },
+      "Checks": {
+        "AllChecksOK": true,
+        "MatchingServerName": true,
+        "FutureValidUntilTS": true,
+        "HasEd25519Key": true,
+        "AllEd25519ChecksOK": true,
+        "Ed25519Checks": {
+          "ed25519:a_RXGa": {
+            "ValidEd25519": true,
+            "MatchingSignature": true
+          }
+        },
+        "ValidCertificates": true
+      },
+      "Errors": [],
+      "Ed25519VerifyKeys": {
+        "ed25519:a_RXGa": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+      },
+      "Info": {},
+      "Keys": {
+        "old_verify_keys": {
+          "ed25519:auto": {
+            "expired_ts": 1576767829750,
+            "key": "Noi6WqcDj0QmPxCNQqgezwTlBKrfqehY1u2FyWP9uYw"
+          }
+        },
+        "server_name": "matrix.org",
+        "signatures": {
+          "matrix.org": {
+            "ed25519:a_RXGa": "S4ORGQibbq1R1G3bBAKvPjxHnSuOzXmAc3NeZxTglJ1pfLLnLLW8xvDjMflEsduLr5z8rVnSQwUur1Z0+2JCAA"
+          }
+        },
+        "valid_until_ts": 1662118699936,
+        "verify_keys": {
+          "ed25519:a_RXGa": {
+            "key": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+          }
+        }
+      }
+    },
+    "104.20.201.37:443": {
+      "Certificates": [
+        {
+          "SubjectCommonName": "sni.cloudflaressl.com",
+          "IssuerCommonName": "Cloudflare Inc ECC CA-3",
+          "SHA256Fingerprint": "kBX1oyhKwmIT6Tm+cwaR+UvttEmkpHypQcUTPHWrJqU",
+          "DNSNames": [
+            "matrix.org",
+            "*.matrix.org",
+            "sni.cloudflaressl.com"
+          ]
+        },
+        {
+          "SubjectCommonName": "Cloudflare Inc ECC CA-3",
+          "IssuerCommonName": "Baltimore CyberTrust Root",
+          "SHA256Fingerprint": "OrvmPa91bFAWtrhfUgFf2Oisvid8UIexJ6YFY6hB7Yo",
+          "DNSNames": null
+        }
+      ],
+      "Cipher": {
+        "Version": "TLS 1.3",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256"
+      },
+      "Checks": {
+        "AllChecksOK": true,
+        "MatchingServerName": true,
+        "FutureValidUntilTS": true,
+        "HasEd25519Key": true,
+        "AllEd25519ChecksOK": true,
+        "Ed25519Checks": {
+          "ed25519:a_RXGa": {
+            "ValidEd25519": true,
+            "MatchingSignature": true
+          }
+        },
+        "ValidCertificates": true
+      },
+      "Errors": [],
+      "Ed25519VerifyKeys": {
+        "ed25519:a_RXGa": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+      },
+      "Info": {},
+      "Keys": {
+        "old_verify_keys": {
+          "ed25519:auto": {
+            "expired_ts": 1576767829750,
+            "key": "Noi6WqcDj0QmPxCNQqgezwTlBKrfqehY1u2FyWP9uYw"
+          }
+        },
+        "server_name": "matrix.org",
+        "signatures": {
+          "matrix.org": {
+            "ed25519:a_RXGa": "S4ORGQibbq1R1G3bBAKvPjxHnSuOzXmAc3NeZxTglJ1pfLLnLLW8xvDjMflEsduLr5z8rVnSQwUur1Z0+2JCAA"
+          }
+        },
+        "valid_until_ts": 1662118699936,
+        "verify_keys": {
+          "ed25519:a_RXGa": {
+            "key": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+          }
+        }
+      }
+    },
+    "172.67.19.90:443": {
+      "Certificates": [
+        {
+          "SubjectCommonName": "sni.cloudflaressl.com",
+          "IssuerCommonName": "Cloudflare Inc ECC CA-3",
+          "SHA256Fingerprint": "kBX1oyhKwmIT6Tm+cwaR+UvttEmkpHypQcUTPHWrJqU",
+          "DNSNames": [
+            "matrix.org",
+            "*.matrix.org",
+            "sni.cloudflaressl.com"
+          ]
+        },
+        {
+          "SubjectCommonName": "Cloudflare Inc ECC CA-3",
+          "IssuerCommonName": "Baltimore CyberTrust Root",
+          "SHA256Fingerprint": "OrvmPa91bFAWtrhfUgFf2Oisvid8UIexJ6YFY6hB7Yo",
+          "DNSNames": null
+        }
+      ],
+      "Cipher": {
+        "Version": "TLS 1.3",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256"
+      },
+      "Checks": {
+        "AllChecksOK": true,
+        "MatchingServerName": true,
+        "FutureValidUntilTS": true,
+        "HasEd25519Key": true,
+        "AllEd25519ChecksOK": true,
+        "Ed25519Checks": {
+          "ed25519:a_RXGa": {
+            "ValidEd25519": true,
+            "MatchingSignature": true
+          }
+        },
+        "ValidCertificates": true
+      },
+      "Errors": [],
+      "Ed25519VerifyKeys": {
+        "ed25519:a_RXGa": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+      },
+      "Info": {},
+      "Keys": {
+        "old_verify_keys": {
+          "ed25519:auto": {
+            "expired_ts": 1576767829750,
+            "key": "Noi6WqcDj0QmPxCNQqgezwTlBKrfqehY1u2FyWP9uYw"
+          }
+        },
+        "server_name": "matrix.org",
+        "signatures": {
+          "matrix.org": {
+            "ed25519:a_RXGa": "S4ORGQibbq1R1G3bBAKvPjxHnSuOzXmAc3NeZxTglJ1pfLLnLLW8xvDjMflEsduLr5z8rVnSQwUur1Z0+2JCAA"
+          }
+        },
+        "valid_until_ts": 1662118699936,
+        "verify_keys": {
+          "ed25519:a_RXGa": {
+            "key": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+          }
+        }
+      }
+    },
+    "[2606:4700:10::6814:c825]:443": {
+      "Certificates": [
+        {
+          "SubjectCommonName": "sni.cloudflaressl.com",
+          "IssuerCommonName": "Cloudflare Inc ECC CA-3",
+          "SHA256Fingerprint": "kBX1oyhKwmIT6Tm+cwaR+UvttEmkpHypQcUTPHWrJqU",
+          "DNSNames": [
+            "matrix.org",
+            "*.matrix.org",
+            "sni.cloudflaressl.com"
+          ]
+        },
+        {
+          "SubjectCommonName": "Cloudflare Inc ECC CA-3",
+          "IssuerCommonName": "Baltimore CyberTrust Root",
+          "SHA256Fingerprint": "OrvmPa91bFAWtrhfUgFf2Oisvid8UIexJ6YFY6hB7Yo",
+          "DNSNames": null
+        }
+      ],
+      "Cipher": {
+        "Version": "TLS 1.3",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256"
+      },
+      "Checks": {
+        "AllChecksOK": true,
+        "MatchingServerName": true,
+        "FutureValidUntilTS": true,
+        "HasEd25519Key": true,
+        "AllEd25519ChecksOK": true,
+        "Ed25519Checks": {
+          "ed25519:a_RXGa": {
+            "ValidEd25519": true,
+            "MatchingSignature": true
+          }
+        },
+        "ValidCertificates": true
+      },
+      "Errors": [],
+      "Ed25519VerifyKeys": {
+        "ed25519:a_RXGa": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+      },
+      "Info": {},
+      "Keys": {
+        "old_verify_keys": {
+          "ed25519:auto": {
+            "expired_ts": 1576767829750,
+            "key": "Noi6WqcDj0QmPxCNQqgezwTlBKrfqehY1u2FyWP9uYw"
+          }
+        },
+        "server_name": "matrix.org",
+        "signatures": {
+          "matrix.org": {
+            "ed25519:a_RXGa": "S4ORGQibbq1R1G3bBAKvPjxHnSuOzXmAc3NeZxTglJ1pfLLnLLW8xvDjMflEsduLr5z8rVnSQwUur1Z0+2JCAA"
+          }
+        },
+        "valid_until_ts": 1662118699936,
+        "verify_keys": {
+          "ed25519:a_RXGa": {
+            "key": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+          }
+        }
+      }
+    },
+    "[2606:4700:10::6814:c925]:443": {
+      "Certificates": [
+        {
+          "SubjectCommonName": "sni.cloudflaressl.com",
+          "IssuerCommonName": "Cloudflare Inc ECC CA-3",
+          "SHA256Fingerprint": "kBX1oyhKwmIT6Tm+cwaR+UvttEmkpHypQcUTPHWrJqU",
+          "DNSNames": [
+            "matrix.org",
+            "*.matrix.org",
+            "sni.cloudflaressl.com"
+          ]
+        },
+        {
+          "SubjectCommonName": "Cloudflare Inc ECC CA-3",
+          "IssuerCommonName": "Baltimore CyberTrust Root",
+          "SHA256Fingerprint": "OrvmPa91bFAWtrhfUgFf2Oisvid8UIexJ6YFY6hB7Yo",
+          "DNSNames": null
+        }
+      ],
+      "Cipher": {
+        "Version": "TLS 1.3",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256"
+      },
+      "Checks": {
+        "AllChecksOK": true,
+        "MatchingServerName": true,
+        "FutureValidUntilTS": true,
+        "HasEd25519Key": true,
+        "AllEd25519ChecksOK": true,
+        "Ed25519Checks": {
+          "ed25519:a_RXGa": {
+            "ValidEd25519": true,
+            "MatchingSignature": true
+          }
+        },
+        "ValidCertificates": true
+      },
+      "Errors": [],
+      "Ed25519VerifyKeys": {
+        "ed25519:a_RXGa": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+      },
+      "Info": {},
+      "Keys": {
+        "old_verify_keys": {
+          "ed25519:auto": {
+            "expired_ts": 1576767829750,
+            "key": "Noi6WqcDj0QmPxCNQqgezwTlBKrfqehY1u2FyWP9uYw"
+          }
+        },
+        "server_name": "matrix.org",
+        "signatures": {
+          "matrix.org": {
+            "ed25519:a_RXGa": "S4ORGQibbq1R1G3bBAKvPjxHnSuOzXmAc3NeZxTglJ1pfLLnLLW8xvDjMflEsduLr5z8rVnSQwUur1Z0+2JCAA"
+          }
+        },
+        "valid_until_ts": 1662118699936,
+        "verify_keys": {
+          "ed25519:a_RXGa": {
+            "key": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+          }
+        }
+      }
+    },
+    "[2606:4700:10::ac43:135a]:443": {
+      "Certificates": [
+        {
+          "SubjectCommonName": "sni.cloudflaressl.com",
+          "IssuerCommonName": "Cloudflare Inc ECC CA-3",
+          "SHA256Fingerprint": "kBX1oyhKwmIT6Tm+cwaR+UvttEmkpHypQcUTPHWrJqU",
+          "DNSNames": [
+            "matrix.org",
+            "*.matrix.org",
+            "sni.cloudflaressl.com"
+          ]
+        },
+        {
+          "SubjectCommonName": "Cloudflare Inc ECC CA-3",
+          "IssuerCommonName": "Baltimore CyberTrust Root",
+          "SHA256Fingerprint": "OrvmPa91bFAWtrhfUgFf2Oisvid8UIexJ6YFY6hB7Yo",
+          "DNSNames": null
+        }
+      ],
+      "Cipher": {
+        "Version": "TLS 1.3",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256"
+      },
+      "Checks": {
+        "AllChecksOK": true,
+        "MatchingServerName": true,
+        "FutureValidUntilTS": true,
+        "HasEd25519Key": true,
+        "AllEd25519ChecksOK": true,
+        "Ed25519Checks": {
+          "ed25519:a_RXGa": {
+            "ValidEd25519": true,
+            "MatchingSignature": true
+          }
+        },
+        "ValidCertificates": true
+      },
+      "Errors": [],
+      "Ed25519VerifyKeys": {
+        "ed25519:a_RXGa": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+      },
+      "Info": {},
+      "Keys": {
+        "old_verify_keys": {
+          "ed25519:auto": {
+            "expired_ts": 1576767829750,
+            "key": "Noi6WqcDj0QmPxCNQqgezwTlBKrfqehY1u2FyWP9uYw"
+          }
+        },
+        "server_name": "matrix.org",
+        "signatures": {
+          "matrix.org": {
+            "ed25519:a_RXGa": "S4ORGQibbq1R1G3bBAKvPjxHnSuOzXmAc3NeZxTglJ1pfLLnLLW8xvDjMflEsduLr5z8rVnSQwUur1Z0+2JCAA"
+          }
+        },
+        "valid_until_ts": 1662118699936,
+        "verify_keys": {
+          "ed25519:a_RXGa": {
+            "key": "l8Hft5qXKn1vfHrg3p4+W8gELQVo8N13JkluMfmn2sQ"
+          }
+        }
+      }
+    }
+  },
+  "ConnectionErrors": {},
+  "Version": {
+    "name": "Synapse",
+    "version": "1.66.0rc2 (b=matrix-org-hotfixes,42374f46f5)"
+  },
+  "FederationOK": true
+}
